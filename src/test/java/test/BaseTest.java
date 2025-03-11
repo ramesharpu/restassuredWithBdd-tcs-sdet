@@ -7,7 +7,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class BaseTest {
-	RequestSpecification request;
+	static RequestSpecification request;
 	String baseURL = "https://petstore.swagger.io/v2";
 	
 	@BeforeSuite
